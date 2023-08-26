@@ -2,8 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `
+    <app-reactive-forms>
+      
+    </app-reactive-forms>
+  ` 
 })
 export class AppComponent {
   title = 'reactive-forms';
